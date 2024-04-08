@@ -30,7 +30,7 @@ class Getting_tables:
     
 
     # making a mehtod to make update
-    def update_process(self):
+    def getting_tables(self):
         try:
            # ASSUMING HAVE TABLE NAME EMPLOYEES
            self.cursor.execute("SELECT * FROM employees")
